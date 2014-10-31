@@ -712,7 +712,7 @@ html, body{
 }
 .b-menu__item {
 	position: relative;
-  font: 500 14px/30px 'Ubuntu', sans-serif;
+  font: 500 14px/28px 'Ubuntu', sans-serif;
 }
 .b-menu__item a {
 	text-decoration: none;
