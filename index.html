@@ -11,10 +11,10 @@
   <!--[if lte IE 9]><link rel="stylesheet" href="f/css/ie.css"><![endif]-->
   <link rel="stylesheet" href="f/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
   <link rel="shortcut icon" href="favicon.ico">
-  <script src="f/js/jquery-1.10.2.min.js"></script>
+  <script src="/f/js/jquery-1.11.1.min.js"></script>
   <script src="/f/js/jquery.slides.min.js"></script>
-  <script src="f/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-  <script src="f/js/common.js"></script>
+  <script src="/f/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script src="/f/js/common.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,600,300,700,300italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
   <script>
@@ -32,22 +32,21 @@
 </head>
 <body>
   <div class="b-wrap">
+    <div class="b-container clear">
     <header class="b-header">
       <a href="#" class="b-logo">
         <img src="/f/i/logo.png" alt="">
       </a>
+      <ul class="b-main-menu">
+        <li class="b-main-menu__item"><a href="#">О компании</a></li>
+        <li class="b-main-menu__item"><a href="#">Партнеры</a></li>
+        <li class="b-main-menu__item"><a href="#">Новости</a></li>
+        <li class="b-main-menu__item"><a href="#">Сервис</a></li>
+        <li class="b-main-menu__item"><a href="#">Контакты</a></li>
+      </ul>
       <div class="b-contact">
-        <div class="b-contact__link iconize-link"><span class="iconize-mail"></span><span class="dotted-link">Письмо директору</span></div>
+        <div class="b-contact__link"><span class="icon-mail"></span><span class="pseudo">Письмо директору</span></div>
         <div class="b-contact__phone"><span>8 (4852)</span> 69-52-80</div>
-      </div>
-      <div class="b-main-menu-wrap">
-        <ul class="b-main-menu">
-          <li class="b-main-menu__item"><a href="#" class="link">О компании</a></li>
-          <li class="b-main-menu__item"><a href="#" class="link">Партнеры</a></li>
-          <li class="b-main-menu__item"><a href="#" class="link">Новости</a></li>
-          <li class="b-main-menu__item"><a href="#" class="link">Сервис</a></li>
-          <li class="b-main-menu__item"><a href="#" class="link">Контакты</a></li>
-        </ul>
       </div>
       <div class="b-main-banner">
         <div class="b-main-banner__logo">
@@ -65,67 +64,67 @@
         </div>
       </div>
     </header>
-    <section class="b-left">
-      <ul class="b-left-menu">
-        <li class="b-left-menu__item b-left-menu__item_1"><a href="#">Каталог техники<span class="iconize-catalog"></span></a>
-          <ul class="b-left-submenu">
-            <li class="b-left-submenu__item b-left-submenu__item_first"><a href="#" class="link">Автобетоносмесители</a></li>
-            <li class="b-left-submenu__item b-left-submenu__item_active"><p>Автовышки</p></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Автогрейдеры</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Автокраны</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Бульдозеры</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Вилочные погрузчики</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Катки дорожные</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Коммунальная и дорожная техника</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Краны-манипуляторы</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Лесозаготовительная техника</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Навесное оборудование</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Погрузчики</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Рельсовые машины</a></li>
-            <li class="b-left-submenu__item"><a href="#" class="link">Самосвалы</a></li>
-            <li class="b-left-submenu__item b-left-submenu__item_last"><a href="#" class="link">Сельскохозяйственная техника</a></li>
+    <section class="b-add">
+      <ul class="b-menu">
+        <li class="b-menu__item b-menu__item_1"><a href="#">Каталог техники<span class="icon-catalog"></span></a>
+          <ul class="b-submenu">
+            <li class="b-submenu__item b-submenu__item_first"><a href="#" >Автобетоносмесители</a></li>
+            <li class="b-submenu__item b-submenu__item_active"><p>Автовышки</p></li>
+            <li class="b-submenu__item"><a href="#" >Автогрейдеры</a></li>
+            <li class="b-submenu__item"><a href="#" >Автокраны</a></li>
+            <li class="b-submenu__item"><a href="#" >Бульдозеры</a></li>
+            <li class="b-submenu__item"><a href="#" >Вилочные погрузчики</a></li>
+            <li class="b-submenu__item"><a href="#" >Катки дорожные</a></li>
+            <li class="b-submenu__item"><a href="#" >Коммунальная и дорожная техника</a></li>
+            <li class="b-submenu__item"><a href="#" >Краны-манипуляторы</a></li>
+            <li class="b-submenu__item"><a href="#" >Лесозаготовительная техника</a></li>
+            <li class="b-submenu__item"><a href="#" >Навесное оборудование</a></li>
+            <li class="b-submenu__item"><a href="#" >Погрузчики</a></li>
+            <li class="b-submenu__item"><a href="#" >Рельсовые машины</a></li>
+            <li class="b-submenu__item"><a href="#" >Самосвалы</a></li>
+            <li class="b-submenu__item b-submenu__item_last"><a href="#" >Сельскохозяйственная техника</a></li>
           </ul>
         </li>
-        <li class="b-left-menu__item b-left-menu__item_2"><a href="#">Производители</a></li>
-        <li class="b-left-menu__item b-left-menu__item_3"><a href="#">Спецпредложения<span class="iconize-spec"></span></a></li>
-        <li class="b-left-menu__item b-left-menu__item_4"><a href="#">Продажа б/у техники</a></li>
-        <li class="b-left-menu__item b-left-menu__item_5"><a href="#">Продажа запчастей</a></li>
-        <li class="b-left-menu__item b-left-menu__item_6"><a href="#">Аренда спецтехники</a></li>
-        <li class="b-left-menu__item b-left-menu__item_7"><a href="#">Кредит и лизинг</a></li>
-        <li class="b-left-menu__item b-left-menu__item_8"><a href="#">Статьи</a></li>
+        <li class="b-menu__item b-menu__item_2"><a href="#">Производители</a></li>
+        <li class="b-menu__item b-menu__item_3"><a href="#">Спецпредложения<span class="icon-spec"></span></a></li>
+        <li class="b-menu__item b-menu__item_4"><a href="#">Продажа б/у техники</a></li>
+        <li class="b-menu__item b-menu__item_5"><a href="#">Продажа запчастей</a></li>
+        <li class="b-menu__item b-menu__item_6"><a href="#">Аренда спецтехники</a></li>
+        <li class="b-menu__item b-menu__item_7"><a href="#">Кредит и лизинг</a></li>
+        <li class="b-menu__item b-menu__item_8"><a href="#">Статьи</a></li>
       </ul>
       <div class="b-branch">
         <p class="b-branch__title">Филиалы</p>
         <ul class="b-branch__list">
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Архангельск <span class="b-branch__item-code">8 (8182) </span><span class="b-branch__item-phone">44 47 97</span></p>
+            <span class="iconize-mark">Архангельск <span class="b-branch__item-code">8 (8182) </span><span class="b-branch__item-phone">44 47 97</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Владимир<span class="b-branch__item-code"> 8 (4922) </span><span class="b-branch__item-phone">60-17-00</span></p>
+            <span class="iconize-mark">Владимир<span class="b-branch__item-code"> 8 (4922) </span><span class="b-branch__item-phone">60-17-00</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Вологда<span class="b-branch__item-code"> 8 (8172) </span><span class="b-branch__item-phone">70-75-05</span></p>
+            <span class="iconize-mark">Вологда<span class="b-branch__item-code"> 8 (8172) </span><span class="b-branch__item-phone">70-75-05</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Иваново<span class="b-branch__item-code"> 8 (4932) </span><span class="b-branch__item-phone">50-96-30</span></p>
+            <span class="iconize-mark">Иваново<span class="b-branch__item-code"> 8 (4932) </span><span class="b-branch__item-phone">50-96-30</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Киров<span class="b-branch__item-code"> 8 (8332) </span><span class="b-branch__item-phone">47-78-92</span></p>
+            <span class="iconize-mark">Киров<span class="b-branch__item-code"> 8 (8332) </span><span class="b-branch__item-phone">47-78-92</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Кострома<span class="b-branch__item-code"> 8 (4942) </span><span class="b-branch__item-phone">49-90-25</span></p>
+            <span class="iconize-mark">Кострома<span class="b-branch__item-code"> 8 (4942) </span><span class="b-branch__item-phone">49-90-25</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Новгород<span class="b-branch__item-code"> 8 (915) </span><span class="b-branch__item-phone">999-78-93</span></p>
+            <span class="iconize-mark">Новгород<span class="b-branch__item-code"> 8 (915) </span><span class="b-branch__item-phone">999-78-93</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Тверь<span class="b-branch__item-code"> 8 (4822) </span><span class="b-branch__item-phone">47-66-40</span></p>
+            <span class="iconize-mark">Тверь<span class="b-branch__item-code"> 8 (4822) </span><span class="b-branch__item-phone">47-66-40</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Череповец<span class="b-branch__item-code"> 8 (8202) </span><span class="b-branch__item-phone">52-52-50</span></p>
+            <span class="iconize-mark">Череповец<span class="b-branch__item-code"> 8 (8202) </span><span class="b-branch__item-phone">52-52-50</span></span>
           </li>
           <li class="b-branch__item">
-            <p><span class="iconize-mark"></span>Сыктывкар<span class="b-branch__item-code"> 8 (8212) </span><span class="b-branch__item-phone">25-19-39</span></p>
+            <span class="iconize-mark">Сыктывкар<span class="b-branch__item-code"> 8 (8212) </span><span class="b-branch__item-phone">25-19-39</span></span>
           </li>
         </ul>
       </div>
@@ -170,8 +169,8 @@
             </div>
             <p class="b-catalog__subtitle">Погрузчики</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Фронтальные</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Минипогрузчики</a></div>
+          <div class="b-catalog__link"><a href="#" >Фронтальные</a></div>
+          <div class="b-catalog__link"><a href="#" >Минипогрузчики</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -179,8 +178,8 @@
             </div>
             <p class="b-catalog__subtitle">Экскаваторы</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Гусеничные экскаваторы</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Колесные экскаваторы</a></div>
+          <div class="b-catalog__link"><a href="#" >Гусеничные экскаваторы</a></div>
+          <div class="b-catalog__link"><a href="#" >Колесные экскаваторы</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -188,8 +187,8 @@
             </div>
             <p class="b-catalog__subtitle">Бульдозеры</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Бульдозеры</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Трубоукладчики</a></div>
+          <div class="b-catalog__link"><a href="#" >Бульдозеры</a></div>
+          <div class="b-catalog__link"><a href="#" >Трубоукладчики</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -197,9 +196,9 @@
             </div>
             <p class="b-catalog__subtitle">Автогрейдеры</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Легкого класса</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Среднего класса</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Тяжелого класса</a></div>
+          <div class="b-catalog__link"><a href="#" >Легкого класса</a></div>
+          <div class="b-catalog__link"><a href="#" >Среднего класса</a></div>
+          <div class="b-catalog__link"><a href="#" >Тяжелого класса</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -207,8 +206,8 @@
             </div>
             <p class="b-catalog__subtitle">Катки дорожные</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Вибрационные катки</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Статические катки</a></div>
+          <div class="b-catalog__link"><a href="#" >Вибрационные катки</a></div>
+          <div class="b-catalog__link"><a href="#" >Статические катки</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -216,8 +215,8 @@
             </div>
             <p class="b-catalog__subtitle">Коммунальная и дорожная техника</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Экскаваторы-погрузчики</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Уборочные и дорожные машины</a></div>
+          <div class="b-catalog__link"><a href="#" >Экскаваторы-погрузчики</a></div>
+          <div class="b-catalog__link"><a href="#" >Уборочные и дорожные машины</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -225,9 +224,9 @@
             </div>
             <p class="b-catalog__subtitle">Автотехника</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Автобетоносмесители</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Автовышки</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Самосвалы</a></div>
+          <div class="b-catalog__link"><a href="#" >Автобетоносмесители</a></div>
+          <div class="b-catalog__link"><a href="#" >Автовышки</a></div>
+          <div class="b-catalog__link"><a href="#" >Самосвалы</a></div>
         </div><div class="b-catalog__item">
           <div class="b-catalog__head">
             <div class="b-catalog__img">
@@ -235,40 +234,45 @@
             </div>
             <p class="b-catalog__subtitle">Вилочные погрузчики</p>
           </div>
-          <div class="b-catalog__link"><a href="#" class="link">Дизельные</a></div>
-          <div class="b-catalog__link"><a href="#" class="link">Электрические</a></div>
+          <div class="b-catalog__link"><a href="#" >Дизельные</a></div>
+          <div class="b-catalog__link"><a href="#" >Электрические</a></div>
         </div>
       </div>
       <div class="b-manufacturers">
         <p class="b-manufacturers__title">Производители</p>
         <div class="b-manufacturers__item">
-          <img src="/f/i/manufact1.png" alt="">
-        </div>
-        <div class="b-manufacturers__item">
-          <img src="/f/i/manufact2.png" alt="">
-        </div>
-        <div class="b-manufacturers__item">
-          <img src="/f/i/manufact3.png" alt="">
-        </div>
-        <div class="b-manufacturers__item">
-          <img src="/f/i/manufact4.png" alt="">
+          <div class="b-manufacturers__item-holder">
+            <img src="/f/i/manufact1.png" alt="">
+          </div>
+        </div><div class="b-manufacturers__item">
+          <div class="b-manufacturers__item-holder">
+            <img src="/f/i/manufact2.png" alt="">
+          </div>
+        </div><div class="b-manufacturers__item">
+          <div class="b-manufacturers__item-holder">
+            <img src="/f/i/manufact3.png" alt="">
+          </div>
+        </div><div class="b-manufacturers__item">
+          <div class="b-manufacturers__item-holder">
+            <img src="/f/i/manufact4.png" alt="">
+          </div>
         </div>
       </div>
       <div class="b-about">
         <p class="b-about__title">О компании</p>
         <p class="b-about__subtitle">Холдинговая компания «Долина» занимается поставками строительной и дорожно-строительной техники, запасных частей, навесного оборудования.</p>
-        <p class="b-about__text">Специализация компании «Долина» — продажа спецтехники. У нас в широком ассортименте представлены: строительно-дорожная техника, строительная техника, спецтехника, коммунальная техника, лесозаготовительная техника.</p>
-        <p class="b-about__text">Наша компания работает на рынке более 17 лет и является дилером LiuGong Machinery Co. LTD,Zhejiang Forway Heavy Industry Co. LTD, Bobcat Company,Terex Company, ЧПТУП «Витсройтехмаш».</p>
-        <p class="b-about__text">К вашим услугам любая дорожно-строительная техника, спецтехника — продажа, аренда, запчасти, сервис, переоборудование.</p>
+        <p>Специализация компании «Долина» — продажа спецтехники. У нас в широком ассортименте представлены: строительно-дорожная техника, строительная техника, спецтехника, коммунальная техника, лесозаготовительная техника.</p>
+        <p>Наша компания работает на рынке более 17 лет и является дилером LiuGong Machinery Co. LTD,Zhejiang Forway Heavy Industry Co. LTD, Bobcat Company,Terex Company, ЧПТУП «Витсройтехмаш».</p>
+        <p>К вашим услугам любая дорожно-строительная техника, спецтехника — продажа, аренда, запчасти, сервис, переоборудование.</p>
       </div>
     </section>
-    <div class="" style="clear: both;"></div>
+    </div>
     <footer class="b-footer">
       <p class="b-footer__text">© 2007—2014 ООО «Долина» — продажа строительно-дорожной техники, спецтехники и строительной техники</p>
-      <div class="b-made-by">
-        <p class="b-made-by__text">Создание сайта</p>
-        <div class="b-made-by__logo"></div>
-      </div>
+      <a class="b-made-by" href="http://inteo-s.ru" rel="external">
+        Создание сайта
+        <img class="b-made-by__logo" src="/f/i/logo-inteo.png">
+      </a>
     </footer>
   </div>
 </body>
