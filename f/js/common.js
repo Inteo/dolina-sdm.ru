@@ -336,6 +336,9 @@ $(document).ready(function(){
 });
 $(function(){
 	$(".b-menu__item").click(function(){
-		$(this).toggleClass("b-menu__item_active");
+		if ($(this).find('.b-submenu').length) {
+			$(this).toggleClass("b-menu__item_active");
+			return false;
+		}
 	});
 });
