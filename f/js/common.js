@@ -335,9 +335,9 @@ $(document).ready(function(){
 	
 });
 $(function(){
-	$(".b-menu__item").click(function(){
-		if ($(this).find('.b-submenu').length) {
-			$(this).toggleClass("b-menu__item_active");
+	$(".b-menu__item a").click(function(){
+		if ($(this).closest('li').find('.b-submenu').length) {
+			$(this).closest('li').toggleClass("b-menu__item_active");
 			return false;
 		}
 	});
